@@ -2,7 +2,7 @@
 cask "webwait" do
   desc ""
   homepage ""
-  version "1.0.2"
+  version "1.0.3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -12,23 +12,23 @@ cask "webwait" do
 
   on_macos do
     on_intel do
-      url "https://github.com/supcik/webwait/releases/download/v1.0.2/webwait_Darwin_x86_64.tar.gz"
-      sha256 "557125d16402b8e0fcdb9d3b47d4a6d64602d3b2299efcd42d4cca6cb70608cc"
+      url "https://github.com/supcik/webwait/releases/download/v1.0.3/webwait_Darwin_x86_64.tar.gz"
+      sha256 "122a06572c668713d3d2581323902a0e36a01caea4e77f49c01576f716638ef3"
     end
     on_arm do
-      url "https://github.com/supcik/webwait/releases/download/v1.0.2/webwait_Darwin_arm64.tar.gz"
-      sha256 "0dcc019b46a4ffd18df2fea073e87fed43a30aa86b0790861966287e383c115a"
+      url "https://github.com/supcik/webwait/releases/download/v1.0.3/webwait_Darwin_arm64.tar.gz"
+      sha256 "a865a4c261ad4bc99f40553d31aa5e248052066da038b655f7a8ab98b304054e"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/supcik/webwait/releases/download/v1.0.2/webwait_Linux_x86_64.tar.gz"
-      sha256 "f4b55d6a79f78188f6ab832588fbb8e9061e3f72842c58ed69c79c38bbda45e0"
+      url "https://github.com/supcik/webwait/releases/download/v1.0.3/webwait_Linux_x86_64.tar.gz"
+      sha256 "537e319456da5bba7faae2506c58c136758c098675e681600cc9e21e2559ea33"
     end
     on_arm do
-      url "https://github.com/supcik/webwait/releases/download/v1.0.2/webwait_Linux_arm64.tar.gz"
-      sha256 "12e8a8d992b9462c52eb24ae3d33b479cbd48f3a0bb91b67f7c3bca6d7db0ec4"
+      url "https://github.com/supcik/webwait/releases/download/v1.0.3/webwait_Linux_arm64.tar.gz"
+      sha256 "36092784a1014aeccef1ec81538057092d29d156b08be74c5f63c4ff4e4664ea"
     end
   end
 
