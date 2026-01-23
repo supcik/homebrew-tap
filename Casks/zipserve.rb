@@ -3,7 +3,7 @@ cask "zipserve" do
   name "zipserve"
   desc "HTTP server that serves web content directly from ZIP archives"
   homepage "https://github.com/supcik/zipserve"
-  version "0.3.0"
+  version "0.3.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "zipserve" do
   on_macos do
     on_intel do
       url "https://github.com/supcik/zipserve/releases/download/v#{version}/zipserve_Darwin_x86_64.tar.gz"
-      sha256 "91d668454142cad92eb0e063e71df3224d161b9e0fe16bd2d7afcedf8819b8c0"
+      sha256 "a14aa955e9dfdbbd23136c41632d1e386d9619ab9d773a846c1aada34fe14d91"
     end
     on_arm do
       url "https://github.com/supcik/zipserve/releases/download/v#{version}/zipserve_Darwin_arm64.tar.gz"
-      sha256 "57c757fbcfb08d0ce04ddc5492e9dadc3eb4e3ba2218778f1720f089f8226852"
+      sha256 "240bb996b5033ab9a60b6522fd0c1a880819d7f7d4e26edcbb57b9a16ce9a3b5"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/supcik/zipserve/releases/download/v#{version}/zipserve_Linux_x86_64.tar.gz"
-      sha256 "75ef286796d453a07ebd2150de09b5c036af99e26348caa39577517bb12e1a95"
+      sha256 "ecf23db9b6413d484995623c7e8771a1250e1cecf1f5c188aeafa91234d50735"
     end
     on_arm do
       url "https://github.com/supcik/zipserve/releases/download/v#{version}/zipserve_Linux_arm64.tar.gz"
-      sha256 "e40d42f924c58854fcb3659f81a86973fb8c01f7665d59b2cc40068a27e5c2ce"
+      sha256 "76319460516b5ec68ca213e79e03354b81d1c6e0c8173ed43bf24a28f60825cb"
     end
   end
 
